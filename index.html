@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Room homepage</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+
+  <div class="mobile_nav_bar_container" id="mobile_nav_bar_container">
+    <div class="mobile_nav_bar_inner">
+      <i class="fas fa-times" id="top_menu_close"></i>
+
+      <ul class=" nav_bar_mobile">
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="#">About</a></li>
+        <li role="presentation"><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <section>
+    <div>
+      <div class="row">
+        <div class="col-md-6 slide_image_container">
+          <div id="hamburger_button" class="hamburger"><i class="fas fa-bars"></i></div>
+
+          <div class="nav_bar_container">
+            <div class="col-md-6 nav_bar_inner">
+              <img src="./images/logo.svg" alt="">
+              <ul class="nav_bar">
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#">About</a></li>
+                <li role="presentation"><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <nav>
+
+          </nav>
+          <div class="slide">
+            <img class="slide_image" src="images/desktop-image-hero-1.jpg" alt="slide1">
+            <img class="slide_image" src="images/desktop-image-hero-2.jpg" alt="slide1">
+            <img class="slide_image" src="images/desktop-image-hero-3.jpg" alt="slide1">
+
+          </div>
+
+
+        </div>
+        <div class="col-md-6 hero_slide_right">
+
+          <div class=" slide_right_container">
+
+            <div class="slide_right_content_container">
+              <h1>Discover Innovative <br> Ways to decorate</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur delectus eveniet assumenda
+              </p>
+              <h4>SHOP NOW</h4>
+            </div>
+
+
+
+            <div class="slide_btn_container">
+              <button class="slide_button" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="slide_button" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+
+  </section>
+
+
+  <section>
+    <div class="row">
+      <div class="col-md-3 image_about image_aboutdark" style="background-color: bisque;">
+        <img src="./images/image-about-dark.jpg" alt="">
+      </div>
+      <div class="col-md-6 image_about_content">
+        <div class="image_about_content_inner">
+          <h3>About Our Furniture</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, nam impedit aperiam quod harum accusantium
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus possimus aliquid temporibus eum
+            veniam voluptatum est labore quidem eligendi, accusamus obcaecati placeat natus eos veritatis ipsam. Et,
+            beatae nihil.
+          </p>
+        </div>
+
+      </div>
+      <div class="col-md-3 image_about image_about_light" style="background-color: bisque;">
+        <img src="./images/image-about-light.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="/script.js"></script>
+</body>
+
+</html>

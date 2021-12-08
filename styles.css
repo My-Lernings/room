@@ -1,0 +1,250 @@
+.slide_image_container{
+  padding: 0;
+ height: 65rem;
+ background-color: aquamarine;
+}
+.hero_slide_right{
+    padding: 0;
+ height: 65rem;
+
+}
+.slide{
+    display: flex;
+    justify-content: start;
+}
+.slide_image{
+    width: 100%;
+    display: none;
+   min-height: 65rem;
+    object-fit: cover;
+}
+.slide_right_container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  
+ 
+}
+.slide_btn_container{
+    align-self: stretch;
+}
+.slide_right_content_container{
+   width: 100%;
+   height: 100%;
+    padding: 13rem;
+
+    
+}
+.slide_right_content_container h1{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    line-height: 5rem;
+}
+.slide_right_content_container p{
+    font-size: 2rem;
+    color: #000;
+    margin-top: 4rem;
+    padding: 0;
+}
+.slide_right_content_container h4{
+    font-size: 2rem;
+    font-weight: lighter;
+    color: rgb(99, 97, 97);
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin-top: 3rem;
+
+}
+.slide_button{
+    width: 5rem;
+    height: 5rem;
+    background-color: rgb(39, 39, 39);
+    border: none;
+    font-size: x-large;
+    color: white;
+}
+.slide_button:hover{
+    background-color: black;
+}
+.nav_bar_container{
+    position: fixed;
+    width: 100%;
+   
+    align-items: center;
+ padding-left: 3rem;
+    padding-right: 3rem;
+ 
+}
+.nav_bar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    min-height: 4rem;
+    height: 4rem;
+    padding: auto;
+   
+}
+.nav_bar a{
+    font-weight: bold;
+    color: white;
+    margin-left: 3rem;
+}
+.nav_bar li{
+    list-style: none;
+}
+.nav_bar a:hover{
+   text-decoration: underline;
+}
+.nav_bar_inner{
+    display: flex;
+    justify-content: space-around;
+}
+.nav_bar_inner img{
+  object-fit: contain;
+  margin-right: 5rem;
+}
+.hamburger{
+   position: fixed;
+    display: none;
+}
+
+.mobile_nav_bar_container{
+    top: 0;
+    left: 0;
+    height: 100%!important;
+    width: 100%!important;
+   display: none;
+   position: fixed;
+    z-index: 2;
+background:rgba(29, 30, 31, 0.4);
+
+}
+.nav_bar_mobile{
+  height: 4rem;
+  z-index: 10;
+  top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.mobile_nav_bar_inner{
+    height: 8rem;
+    width: 100%;
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.5s;
+
+}
+.nav_bar_mobile li{
+    font-weight: bold;
+    color: black;
+    margin-left: 3rem;
+    list-style: none;
+}
+.nav_bar_mobile a{
+    font-weight: bold;
+    color: black;
+  font-size: large;
+}
+#top_menu_close{
+    font-size: 3rem;
+}
+.image_about{
+    padding: 0;
+    margin: 0;
+}
+.image_about img{
+    object-fit: contain;
+    width: 100%;
+}
+.image_about_content{
+    padding: 3rem;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.image_about_content_inner{
+
+
+}
+@media screen and (max-width: 768px){
+.nav_bar_container{
+   margin-top: 2rem;
+}
+.nav_bar{
+    display: none;
+}
+.slide_image{
+    height: 100%;
+    min-height: 100%;
+}
+.slide_image_container{
+    height: 100%;
+    min-height: 100%;
+}
+   .nav_bar_inner img{
+       top: 2rem;
+   }
+.hamburger{
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    display: block;
+    z-index: 100;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.slide_right_content_container h4{
+ 
+}
+.slide_right_content_container{
+  padding: 4rem;
+}
+.slide_btn_container{
+    /* display: none !important; */
+      width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 1rem;
+        margin: 0;
+        padding: 0;
+        left: 6px;
+        
+}
+.slide_right_content_container{
+    height: fit-content;
+    margin-top: 0;
+   
+}
+}
+
+@media screen and (max-width: 990px){
+    .slide_right_content_container h1{
+        margin-top: 2rem;
+    }
+    .slide_btn_container{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+}
